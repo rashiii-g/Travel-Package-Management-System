@@ -9,9 +9,10 @@ INSERT INTO Customers (first_name, last_name, email, phone, city) VALUES
 ('Meera', 'Reddy', 'meera.reddy@example.com', '9673456789', 'Pune'),
 ('Vikas', 'Singh', 'vikas.singh@example.com', '9765432101', 'Lucknow'),
 ('Shivani', 'Joshi', 'shivani.joshi@example.com', '9012345678', 'Ahmedabad'),
-('Rajesh', 'Mishra', 'rajesh.mishra@example.com', '9812345670', 'Jaipur');
+('Rajesh', 'Mishra', 'rajesh.mishra@example.com', '9812345670', 'Jaipur')
+('Sarthak', 'Gupta', 'sarthakspeaks@example.com', '7300085999', 'Bangloria');
 
--- Inserting sample data into Packages table
+-- Inserting sample data into the Packages table
 INSERT INTO Packages (package_name, description, price, destination, start_date, end_date, package_type) VALUES
 ('Himalayan Trek', 'An adventure trekking package in Himachal Pradesh with scenic views of the Himalayas.', 25000.00, 'Himachal Pradesh', '2024-06-01', '2024-06-10', 'Adventure'),
 ('Goa Beach Escape', 'A relaxing beach vacation in Goa with luxury resorts and beaches.', 15000.00, 'Goa', '2024-07-05', '2024-07-12', 'Relaxation'),
